@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Erica's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5d19900f91.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/circleprogress.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">EJGG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="banner container d-flex flex-wrap">
+      <div
+        class="banner-text col-md-5 d-flex justify-content-center align-items-center"
+      >
+        <div class="banner-info" data-aos-duration="1000" data-aos="fade-up">
+          <h1>Hi, I'm</h1>
+          <h2>Erica Joy</h2>
+          <p>Your Future Data Analyst</p>
+          <div class="banner-icon d-flex justify-content-center">
+            <a href="www.gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.facebook.com/ericajoy.gloriane.9" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/Gloriane-Erica" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="1000"
+        class="banner-img flex-column d-flex justify-content-center align-items-center col-md-7"
+      >
+        <img src="images/Snapchat-514498240.jpg" alt="" />
+        <a class="button-34" href="file/resume.docx" download>DOWNLOAD MY CV</a> 
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about-me pt-5 container">
+        <div class="about-des row">
+          <div data-aos="zoom-in-down" data-aos-duration="1000" class="about-img text-center col-md-4">
+            <h2 class="h2title">About Me</h2>
+            <img src="images/received_750845886066823.jpeg" alt="" />
+          </div>
+          <div class="about-text col-md-8">
+            <div data-aos="fade-left" 
+            data-aos-offset="120"
+            data-aos-duration="1000" class="row d-flex align-items-center">
+              <p class="text">
+                I'm Erica Joy G. Gloriane, 21 years old. I live in Jamorawon,
+                Bulan, Sorsogon. A third year college student, currently taking
+                Bacelor of Science in Information Technology at Sorsogon State
+                University Bulan Campus.
+              </p>
+            </div>
+
+            <div data-aos="fade-left" 
+            data-aos-offset="120"
+            data-aos-duration="2000" class="row skill">
+              <h2 class="h2title">Skills</h2>
+              <div
+                class="circle-progress d-flex justify-content-around"
+              >
+                <div class="box1 col-md-4">
+                  <h4 class="text-center text-white">JavaScript</h4>
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>5<span>%</span></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box2 col-md-4">
+                  <h4 class="text-center text-white">HTML</h4>
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>10<span>%</span></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box3 col-md-4">
+                  <h4 class="text-center text-white">Canva</h4>
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>25<span>%</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio container">
+        <div class="portfolio-title">
+          <h2 class="h2title">Portfolio</h2>
+        </div>
+        <div class="project">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <!-- Put in href the link of your project -->
+              <a href="https://github.com/Gloriane-Erica/note_app_EricaJoy_Gloriane.git" target="_blank">
+                <div data-aos="fade-up"
+                data-aos-duration="1000"  data-aos-delay="0" class="card h-100">
+                  <img
+                    src="images/note-app.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Note App</h5>
+                    <p class="card-text">This application use to manage notes using Node JS.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <!-- Put in href the link of your project -->
+              <a href="https://github.com/Gloriane-Erica/Weather_App_Gloriane.git">
+                <div data-aos="fade-up"
+                data-aos-duration="1000"  data-aos-delay="500" class="card h-100">
+                  <img
+                    src="images/weather.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Weather App</h5>
+                    <p class="card-text">An app that could display weather in different places.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <!-- Put in href the link of your project -->
+              <a href="https://github.com/Gloriane-Erica/Chat_App_Gloriane.git">
+                <div data-aos="fade-up"
+                data-aos-duration="1000"  data-aos-delay="1000" class="card h-100">
+                  <img
+                    src="images/chat.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Chat App</h5>
+                    <p class="card-text">To make a chat with friend or group friend.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume container">
+        <div class="portfolio-title">
+          <h2 class="h2title">RESUME</h2>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000"
+        data-aos-anchor-placement="top-center" class="resume-card">
+          <h3 class="text-center text-white mb-4">EDUCATIONAL BACKGROUND</h3>
+          <div
+            class="row d-flex justify-content-around row-cols-1 row-cols-md-3 g-4"
+          >
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="images/jamorawon.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">2008 - 2014</h5>
+                  <p class="card-text fw-bold">JAMORAWON ELEMENTARY SCHOOL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/polot.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">2014 - 2020</h5>
+                  <p class="card-text fw-bold">
+                    SAN FRANCISCO NATIONAL HIGH SCHOOL
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="container contact">
+      <div class="contact-title">
+        <h2 class="h2title">Contact Me</h2>
+      </div>
+      <div class="contact row">
+        <div data-aos="fade-right"  data-aos-duration="1000" class="contact-info mb-5 d-sm-flex justify-content-sm-center col-md-6">
+          <div class="ms-md-5">
+            <h3 ">My Personal Information</h3>
+            <div class="info">
+              <i class="fas fa-phone"></i
+              ><span class="ms-3">0909-428-9335</span>
+            </div>
+            <div class="info">
+              <i class="fas fa-envelope"> </i
+              ><span class="ms-3">icahgloriane@gmail.com</span>
+            </div>
+            <div class="info">
+              <i class="fas fa-map-marker-alt"> </i
+              ><span class="ms-3">Jamorawon Bulan, Sorsogon</span>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left"  data-aos-duration="1000" class="col-md-6 d-flex flex-column justify-content-center">
+          <h3 ">For Inquiries, Send Me a Message Here:</h3>
+          <form action="mailto:someone@example.com" target="_blank">
+            <div class="col-md-12 form-group mb-3">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-md-12 form-group mb-3">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-md-12 form-group mb-3">
+              <textarea
+                name="message"
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button class="btn btn-lg btn-light col-md-3" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/animation.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

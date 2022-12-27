@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #503b54;
+}
+
+nav .navbar {
+  justify-content: space-around;
+  padding: 15px;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #b0bbec;
+}
+
+nav .nav-link {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+nav .navbar-collapse {
+  flex-grow: 0;
+}
+
+.banner {
+  height: 85vh;
+}
+
+.about-me,
+.resume,
+.portfolio {
+  height: 100vh;
+}
+
+footer {
+  height: 75vh;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+.banner h2 {
+  font-size: 5rem;
+  color: #b0bbec;
+}
+
+.banner .banner-icon i {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-right: 40px;
+}
+
+.button-34 {
+  text-decoration: none;
+  margin-top: 10px;
+  background: #b0bbec;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #503b54;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.banner p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.banner .banner-img img {
+  border-radius: 100%;
+  max-width: 350px;
+}
+
+.about-me img {
+  border-radius: 100%;
+  max-width: 230px;
+}
+
+.about-me .about-text .text {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: #000;
+}
+
+.resume .resume-card,
+.portfolio .project {
+  margin-top: 70px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact h3 {
+  color: #b0bbec;
+  margin: 25px 0px;
+}
+.contact i,
+span {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.contact .info {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.h2title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 777px) {
+  .about-me,
+  .resume,
+  .portfolio,
+  .contact,
+  .banner {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-info {
+    margin-bottom: 20px;
+  }
+
+  .banner .banner-icon i {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px 10px;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner h2 {
+    font-size: 3rem;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .banner .banner-img img {
+    border-radius: 100%;
+    max-width: 240px;
+  }
+
+  .about-me .skill .circle-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me .about-text .text {
+    font-size: 1rem;
+  }
+
+  .contact h3 {
+    color: #fff;
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .contact .info {
+    padding-left: 20px;
+  }
+
+  .contact i,
+  span {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .contact .info {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
